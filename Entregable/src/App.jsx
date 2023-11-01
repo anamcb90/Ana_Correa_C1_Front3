@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from './Card'
 
 function App() {
-  //Aqui deberias agregar los estados y los handlers para los inputs
+  
   const [nombre, setNombre] = useState('')
   const [animal, setAnimal] = useState('')
   const [error, setError] = useState('');
