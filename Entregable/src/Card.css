@@ -1,0 +1,19 @@
+.card{
+
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    margin: 15%;
+    
+}
+
+h2{
+    color: green;
+    margin: 3%;
+}
+
+p{
+    color: green;
+}
