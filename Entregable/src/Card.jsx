@@ -1,10 +1,13 @@
 //Este componente deberia recibir por props y mostrar en pantalla la informacion
 //que envia el usuario
+import React from 'react'
 
-function Card() {
+const Card = ({nombre, animal}) => {
   return (
-    <div>
-      <h2>Esto es un componente</h2>
+    <div className="card">
+      <h2>ANIMAL FAVORITO</h2>
+      <p>Nombre: {nombre}</p>
+      <p>Animal Favorito: {animal}</p>
     </div>
   );
 }
